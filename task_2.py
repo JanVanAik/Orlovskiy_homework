@@ -4,8 +4,6 @@ for i in range(1, 1001):
         i = i ** 3
         base_list.append(i)
 
-print(base_list)
-
 for i in base_list:
     sum_check = 0
     num = i
@@ -14,7 +12,6 @@ for i in base_list:
         num = num // 10
     if sum_check % 7 == 0:
         sum = sum + i
-
 print(sum)
 
 #Задание со *
