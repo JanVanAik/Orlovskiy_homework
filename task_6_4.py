@@ -1,3 +1,6 @@
+#Насколько я понимаю, идентичен task_6_3.py, т.к в третьем задании
+# идет работа с readline, которая считывает данные по одной строке и не занимает значительную часть ОЗУ
+
 from itertools import zip_longest
 hobbies = []
 users = []
@@ -17,5 +20,3 @@ with open('users.csv', 'r', encoding='utf-8') as us:
             print(result)
          else:
             exit(1)
-
-
