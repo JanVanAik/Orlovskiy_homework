@@ -1,6 +1,6 @@
 from sys import argv
 name, *args = argv
-with open('task_6_6.csv', 'r', encoding='utf-8') as f:
+with open('Lesson_6/task_6_6.csv', 'r', encoding='utf-8') as f:
     i = 0
     if len(argv) == 1:
         for line in f:

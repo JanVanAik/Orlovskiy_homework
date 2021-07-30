@@ -2,8 +2,8 @@ from itertools import zip_longest
 hobbies = []
 users = []
 
-with open('users.csv', 'r', encoding='utf-8') as us:
-    with open('hobby.csv', 'r', encoding='utf-8') as hb:
+with open('../users.csv', 'r', encoding='utf-8') as us:
+    with open('../hobby.csv', 'r', encoding='utf-8') as hb:
          if len(us.readlines()) >= len(hb.readlines()):
             us.seek(0)
             hb.seek(0)
